@@ -1,0 +1,162 @@
+Prune Delivery Application
+
+An enterprise-grade Android application for delivery operations, field workforce management, telecom activations, and electric vehicle rentals. The platform streamlines rider onboarding, order fulfillment, real-time tracking, KYC verification, and operational management through role-based workflows.
+
+Overview
+
+Prune is designed to support multiple user roles, including Delivery Partners, Field Agents, and Team Leads. It provides an integrated platform for managing the complete delivery lifecycle, from partner onboarding and order assignment to delivery completion, incentives, and reporting.
+
+The application combines native Android technologies, real-time synchronization, mapping solutions, and third-party SDK integrations to support reliable field operations.
+
+Features
+
+1. Rider Onboarding & KYC
+
+- Aadhaar KYC verification using the FRSLabs Atlas SDK.
+- PAN card and address verification workflows.
+- Document capture and photo uploads.
+- Camera integration using CameraX.
+- Image cropping and processing using uCrop.
+- Guided onboarding workflows for delivery partners.
+
+2. Order Management & Fulfillment
+
+- Real-time incoming order notifications.
+- Custom floating overlays for urgent delivery requests.
+- Lock-screen order alerts and full-screen notification flows.
+- Order acceptance and lifecycle status updates.
+- Order rescheduling and return-to-origin (RTO) management.
+- Delivery completion and status synchronization.
+
+3. Real-Time Location Tracking & Navigation
+
+- Rider location tracking using Android location services.
+- Foreground services for continuous tracking.
+- Google Maps and Ola Maps SDK integrations.
+- Route directions, navigation, and map annotations.
+- Uber H3 integration for spatial indexing.
+- Background synchronization for field operations.
+
+4. EV Rental Management
+
+- Browse and compare available electric vehicles.
+- Select rental vendors and pickup locations.
+- Manage security deposits and rental payments.
+- Confirm vehicle pickup.
+- Track rental payment status and rental workflows.
+
+5. Team Lead & Staff Management
+
+- Role-based access for delivery partners and team leads.
+- Monitor ongoing, pending, and reported orders.
+- Oversee delivery partner operations.
+- Access operational dashboards and reports.
+- Separate workflows for rider operations and administrative functions.
+
+6. Wallet, Incentives & Referrals
+
+- Wallet transaction history.
+- Wallet transfer reports.
+- Live offers and promotional incentives.
+- Shift-based incentive calculations.
+- Rider referral programs.
+
+Architecture & Technology Stack
+
+The application uses a hybrid Kotlin and Java codebase, combining modern declarative UI development with established Android view-based components.
+
+Category| Technologies
+Languages| Kotlin, Java
+UI| Jetpack Compose, Material 3, XML Layouts
+View Binding| ViewBinding, DataBinding
+Networking| Retrofit, Gson Converter
+Maps & Navigation| Google Maps API, Ola Maps SDK
+Spatial Indexing| Uber H3
+Background Processing| Android Foreground Services, WorkManager
+Camera & Media| CameraX, uCrop
+KYC Integration| FRSLabs Atlas SDK
+Barcode & QR Scanning| Google ML Kit
+Crash Reporting| Firebase Crashlytics
+Analytics| Firebase Analytics, Microsoft Clarity
+
+Key Engineering Highlights
+
+Reliable Background Execution
+
+Implemented foreground services and background processing workflows to support continuous rider location tracking and order synchronization, with appropriate Android permission and lifecycle handling.
+
+Real-Time Order Notifications
+
+Developed custom order alert flows using alarm receivers, floating overlays, and full-screen activities to bring high-priority delivery requests to the rider's attention, including relevant lock-screen scenarios.
+
+Third-Party SDK Integration
+
+Integrated multiple SDKs into the Android application, including:
+
+- FRSLabs Atlas for KYC verification.
+- Ola Maps for mapping and navigation.
+- Google Maps for location visualization.
+- Google ML Kit for barcode and QR code scanning.
+- CameraX for camera operations.
+
+Hybrid UI Development
+
+Worked with Jetpack Compose and Material 3 alongside traditional XML-based screens, using ViewBinding and DataBinding to support a hybrid Android codebase.
+
+Role-Based Workflows
+
+Structured rider and Team Lead functionality around distinct operational requirements, supporting role-specific screens, order visibility, and administrative workflows.
+
+Operational Monitoring
+
+Integrated Firebase Crashlytics, Firebase Analytics, and Microsoft Clarity to support crash investigation, application analytics, and user interaction insights.
+
+Application Modules
+
+The application is organized around the following functional areas:
+
+Prune Delivery Application
+├── Rider Onboarding & KYC
+├── Order Management
+│   ├── Order Acceptance
+│   ├── Order Status Updates
+│   ├── Rescheduling
+│   └── Returns & RTO
+├── Location Tracking & Navigation
+├── EV Rental Management
+├── Team Lead Dashboard
+├── Staff Management
+├── Wallet & Transactions
+├── Incentives & Referrals
+└── Analytics & Monitoring
+
+This is a functional overview, not a representation of the actual Gradle module or package structure.
+
+Android Engineering Focus
+
+This project involves several important Android engineering areas:
+
+- Foreground service lifecycle management.
+- Background execution and permission handling.
+- Real-time event synchronization.
+- Notifications, alarm receivers, and lock-screen interactions.
+- Integration of native Android APIs with third-party SDKs.
+- Hybrid UI development with Compose and XML.
+- Location tracking and map-based navigation.
+- Role-based application workflows.
+- Crash reporting and analytics integration.
+
+Project Goals
+
+- Simplify delivery partner onboarding and verification.
+- Improve the speed and reliability of order fulfillment.
+- Provide visibility into rider operations and location.
+- Support EV rental workflows within the delivery ecosystem.
+- Enable team leads to monitor operational performance.
+- Centralize wallet, incentives, and referral functionality.
+
+Summary
+
+Prune is a multi-workflow Android delivery platform that brings together delivery management, field operations, identity verification, location tracking, EV rentals, and workforce dashboards.
+
+The project demonstrates practical Android engineering across Kotlin, Java, Jetpack Compose, legacy UI integration, background services, mapping SDKs, REST APIs, and third-party integrations.
