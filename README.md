@@ -17,8 +17,8 @@ A multi-utility consumer application bringing telecom services, eSIM, bill payme
 
 An operational Android application supporting delivery fulfillment, rider onboarding and KYC, real-time tracking, EV rentals, wallet operations, incentives, and team management.
 
-- **Live Application:** [Google Play Store](PLAY_STORE_DELIVERY_URL)
-- **Technical Overview:** [View Project Details](./Prune-Delivery-App/README.md)
+- **Live Application:** [Google Play Store](https://play.google.com/store/apps/details?id=com.prune.prunedelieveryapplication&hl=en_IN)
+- **Technical Overview:** [View Project Details](./TRUN%20DELIVERY%20PARTNER/Readme.md)
 
 ## Engineering Ownership
 
