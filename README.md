@@ -10,8 +10,8 @@ My work spans end-to-end Android development, feature ownership, third-party int
 
 A multi-utility consumer application bringing telecom services, eSIM, bill payments, insurance, ONDC commerce, and data tracking into a unified Android experience.
 
-- **Live Application:** [Google Play Store](PLAY_STORE_CONSUMER_URL)
-- **Technical Overview:** [View Project Details](./Prune-Consumer-App/README.md)
+- **Live Application:** [Google Play Store](https://play.google.com/store/apps/details?id=com.prune&hl=en&gl=US)
+- **Technical Overview:** [View Project Details](./CONSUMER%20APP/Readme.md)
 
 ### 2. Prune Delivery Application
 
