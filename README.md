@@ -1,82 +1,48 @@
-# Welcome to My Android Projects Archive!
+# Android Engineering | Production Applications
 
-This repository serves as a comprehensive collection of various Android development projects I've worked on throughout my journey as a developer. Each project highlights my skills and experience in building robust and user-friendly mobile applications.
+A showcase of Android applications I have worked on, contributed to, and deployed to the Google Play Store.
 
-## Purpose
+My work spans end-to-end Android development, feature ownership, third-party integrations, production issue resolution, release management, and shipping new application versions to production.
 
-The primary goal of this archive is to demonstrate my proficiency in Android development, showcasing my ability to implement diverse functionalities, integrate APIs, and utilize modern frameworks. Each project encapsulates different aspects of mobile application development, from user interface design to backend integration.
+## Production Applications
 
-## Repository Structure
+### 1. Prune Consumer App
 
-The repository is organized into the following main directories:
+A multi-utility consumer application bringing telecom services, eSIM, bill payments, insurance, ONDC commerce, and data tracking into a unified Android experience.
 
+- **Live Application:** [Google Play Store](PLAY_STORE_CONSUMER_URL)
+- **Technical Overview:** [View Project Details](./Prune-Consumer-App/README.md)
 
-```plaintext
+### 2. Prune Delivery Application
 
+An operational Android application supporting delivery fulfillment, rider onboarding and KYC, real-time tracking, EV rentals, wallet operations, incentives, and team management.
 
-Android-Projects-Archive/
-│
-├── UPAVP-PEMS/                     # Directory for UPAVP-PEMS project
-│   └── README.md                   # Overview and details about the UPAVP-PEMS project
-│
-├── MELA/                       # Directory for MELA project 
-│   └── README.md                   # Overview and details about the MELA project
-│
-├── SURVEYKSHAN /                       # Directory for SURVEYKSHAN      
-│   └── README.md                   # Overview and details about SURVEYKSHAN
-│
-└── README.md                       # Main README file for the repository
+- **Live Application:** [Google Play Store](PLAY_STORE_DELIVERY_URL)
+- **Technical Overview:** [View Project Details](./Prune-Delivery-App/README.md)
 
+## Engineering Ownership
 
-```
+My responsibilities across these applications include:
 
+- **End-to-End Production Delivery:** Taking Android features from implementation and integration through validation, production readiness, and release.
+- **Feature Ownership:** Driving the development of application features across consumer-facing services and operational workflows.
+- **Google Play Store Deployment:** Preparing production builds, managing release configurations, and deploying new application releases through Google Play Console.
+- **Production Maintenance:** Debugging issues, investigating crashes, and maintaining existing functionality while shipping enhancements.
+- **Android Architecture:** Working with MVVM, Kotlin Coroutines, lifecycle-aware components, and structured feature packages.
+- **Backend & SDK Integration:** Integrating REST APIs, mapping services, KYC SDKs, camera capabilities, and other third-party dependencies.
+- **Background & Real-Time Processing:** Implementing location tracking, background tasks, and real-time order synchronization where required.
+- **Performance & Reliability:** Applying release-build optimizations and using Firebase Crashlytics and analytics tools to support application quality.
 
----
+## Technical Expertise
 
-## 🛠️ Technologies Used
----
+**Languages:** Kotlin, Java
 
-### **Mobile Development**
-- **Android SDK**: Activities, Fragments, Services, Broadcast Receivers, Content Providers.
-- **Programming Languages**: Proficient in **Java** and **Kotlin**.
-- **Asynchronous Programming**: Advanced **Kotlin Coroutines** and structured concurrency.
-- **Task Scheduling**: **WorkManager**, **JobScheduler**, **AlarmManager**.
+**Android Development:** MVVM, Jetpack Compose, Material 3, XML, ViewBinding, DataBinding, Kotlin Coroutines, LiveData
 
----
+**Networking & Persistence:** Retrofit, Volley, Gson, Room
 
-### **Network, Notifications & Backend**
-- **Network Communication**: **Retrofit** (with custom CallAdapters), **Volley**, RESTful APIs.
-- **Push Notifications**: **Firebase Cloud Messaging (FCM)** for real-time user engagement.
-- **Authentication & Security**: **OAuth 2.0**, token-based APIs, **Firebase Authentication**.
-- **Cloud & Backend**: **AWS (S3, EC2)**, **Firebase Realtime Database**, cloud-based storage.
+**Platform Integrations:** Google Maps, Ola Maps, WorkManager, Foreground Services, CameraX, Google ML Kit, FRSLABS Atlas SDK, Uber H3
 
----
+**Production & Observability:** Firebase Crashlytics, Firebase Analytics, Microsoft Clarity, R8, Google Play Console
 
-### **UI/UX & Navigation**
-- **Layout & Design**: **XML**, **Material Design**, responsive layouts, custom views.
-- **Animations & Transitions**: Smooth UI interactions and state management.
-- **Deep Linking**: **App Links** and **custom deep links** for seamless navigation.
-- **Localization**: Multi-language support and dynamic UI updates.
-
----
-
-### **Data Management**
-- **Local Storage**: **SQLite**, **Room Database**, **SharedPreferences**.
-- **Media Handling**: Audio recording, foreground services, and optimized image loading with **Coil**, **Glide**, **Picasso**.
-- **Sensor Data**: Experience with accelerometer, step counter, light sensors, and more.
-
----
-
-### **Tools & Practices**
-- **Version Control**: **Git** workflows, branching strategies, CI/CD.
-- **Error Tracking**: **Firebase Crashlytics** and advanced Logcat debugging.
-- **Dependency Injection**: **Koin** (familiar with **Dagger-Hilt**).
-- **Testing**: **JUnit** for unit tests and **Espresso** for UI tests.
-- **System Design**: Scalable architectures (MVVM, Clean Architecture).
-
-
-
-
-
-
-
+**Focus:** Android Engineering · Feature Ownership · Production Releases · Google Play Store Deployment
