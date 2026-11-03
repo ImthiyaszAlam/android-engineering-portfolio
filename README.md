@@ -11,28 +11,24 @@ My work spans end-to-end Android development, feature ownership, third-party int
 A multi-utility consumer application bringing telecom services, eSIM, bill payments, insurance, ONDC commerce, and data tracking into a unified Android experience.
 
 - **Live Application:** [Google Play Store](https://play.google.com/store/apps/details?id=com.prune&hl=en&gl=US)
-- **Technical Overview:** [View Project Details](./CONSUMER%20APP/Readme.md)
 
 ### 2. Prune Delivery Application
 
 An operational Android application supporting delivery fulfillment, rider onboarding and KYC, real-time tracking, EV rentals, wallet operations, incentives, and team management.
 
 - **Live Application:** [Google Play Store](https://play.google.com/store/apps/details?id=com.prune.prunedelieveryapplication&hl=en_IN)
-- **Technical Overview:** [View Project Details](./TRUN%20DELIVERY%20PARTNER/Readme.md)
 
 ### 3. Trun Mitra – Team & Partner App
 
 A production application supporting influencer operations, field representatives, rider services, and partner management.
 
 - **Live Application:** [Google Play Store](https://play.google.com/store/apps/details?id=com.trun.mitra&hl=en_IN)
-- **Technical Overview:** [View Project Details](./TRUN%20MITRA/Readme.md)
 
 ### 4. Survey Maker
 
 A field data collection and survey application designed to create surveys, collect responses, and manage field research workflows.
 
 - **Live Application:** [Google Play Store](https://play.google.com/store/apps/details?id=com.fynzo.survey&hl=en_IN)
-- **Technical Overview:** [View Project Details](./SURVEY%20MAKER/Readme.md)
 
 
 ## Engineering Ownership
