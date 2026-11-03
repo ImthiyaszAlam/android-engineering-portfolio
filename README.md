@@ -20,6 +20,21 @@ An operational Android application supporting delivery fulfillment, rider onboar
 - **Live Application:** [Google Play Store](https://play.google.com/store/apps/details?id=com.prune.prunedelieveryapplication&hl=en_IN)
 - **Technical Overview:** [View Project Details](./TRUN%20DELIVERY%20PARTNER/Readme.md)
 
+### 3. Trun Mitra – Team & Partner App
+
+A production application supporting influencer operations, field representatives, rider services, and partner management.
+
+- **Live Application:** [Google Play Store](https://play.google.com/store/apps/details?id=com.trun.mitra&hl=en_IN)
+- **Technical Overview:** [View Project Details](./TRUN%20MITRA/Readme.md)
+
+### 4. Survey Maker
+
+A field data collection and survey application designed to create surveys, collect responses, and manage field research workflows.
+
+- **Live Application:** [Google Play Store](https://play.google.com/store/apps/details?id=com.fynzo.survey&hl=en_IN)
+- **Technical Overview:** [View Project Details](./SURVEY%20MAKER/Readme.md)
+
+
 ## Engineering Ownership
 
 My responsibilities across these applications include:
