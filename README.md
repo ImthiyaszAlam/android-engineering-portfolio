@@ -1,59 +1,73 @@
-# Android Engineering | Production Applications
 
-A showcase of Android applications I have worked on, contributed to, and deployed to the Google Play Store.
+# Android Engineering 
 
-My work spans end-to-end Android development, feature ownership, third-party integrations, production issue resolution, release management, and shipping new application versions to production.
+Production Android applications I've developed, contributed to, and shipped on the Google Play Store.
+
+**Focus:** Feature Ownership · Android Architecture · API & SDK Integration · Production Releases
+
+---
 
 ## Production Applications
 
-### 1. Prune Consumer App
+### 01. Prune – Consumer App
+[View on Google Play](https://play.google.com/store/apps/details?id=com.prune&hl=en&gl=US)
 
-A multi-utility consumer application bringing telecom services, eSIM, bill payments, insurance, ONDC commerce, and data tracking into a unified Android experience.
+- Integrated eSIM, telecom services, and mobile data management.
+- Implemented bill payments, insurance, and ONDC commerce workflows.
+- Developed and maintained consumer-facing features and third-party integrations.
 
-- **Live Application:** [Google Play Store](https://play.google.com/store/apps/details?id=com.prune&hl=en&gl=US)
+### 02. Prune – Delivery App
+[View on Google Play](https://play.google.com/store/apps/details?id=com.prune.prunedelieveryapplication&hl=en_IN)
 
-### 2. Prune Delivery Application
+- Implemented rider onboarding, KYC, and delivery management workflows.
+- Integrated real-time location tracking, EV rentals, and order synchronization.
+- Developed wallet, earnings, incentives, and team management features.
 
-An operational Android application supporting delivery fulfillment, rider onboarding and KYC, real-time tracking, EV rentals, wallet operations, incentives, and team management.
+### 03. Trun Mitra – Team & Partner
+[View on Google Play](https://play.google.com/store/apps/details?id=com.trun.mitra&hl=en_IN)
 
-- **Live Application:** [Google Play Store](https://play.google.com/store/apps/details?id=com.prune.prunedelieveryapplication&hl=en_IN)
+- Developed dashboards for field representatives and partner operations.
+- Integrated rider performance, payout, wallet, and earnings management APIs.
+- Implemented authentication, push notifications, and profile management.
 
-### 3. Trun Mitra – Team & Partner App
+### 04. Survey Maker
+[View on Google Play](https://play.google.com/store/apps/details?id=com.fynzo.survey&hl=en_IN)
 
-A production application supporting influencer operations, field representatives, rider services, and partner management.
+- Developed survey creation and field data collection workflows.
+- Implemented response submission and survey management features.
+- Supported field research and data collection operations.
 
-- **Live Application:** [Google Play Store](https://play.google.com/store/apps/details?id=com.trun.mitra&hl=en_IN)
+---
 
-### 4. Survey Maker
+## Engineering Contributions
 
-A field data collection and survey application designed to create surveys, collect responses, and manage field research workflows.
+- **Feature Development:** Building and maintaining end-to-end Android features.
+- **Architecture:** Implementing MVVM, structured feature packages, and lifecycle-aware components.
+- **API Integration:** Integrating REST APIs, authentication, networking, and data synchronization.
+- **Third-Party SDKs:** Integrating mapping, KYC, camera, location, and other platform services.
+- **Background Processing:** Implementing location tracking, background execution, and real-time synchronization.
+- **Production Releases:** Managing build configurations, release preparation, and Google Play Store deployments.
+- **Stability & Performance:** Debugging production issues, crash analysis, and release-build optimization.
 
-- **Live Application:** [Google Play Store](https://play.google.com/store/apps/details?id=com.fynzo.survey&hl=en_IN)
+---
 
+## Technical Stack
 
-## Engineering Ownership
+| Category | Technologies |
+|---|---|
+| Languages | Kotlin, Java |
+| UI Development | Jetpack Compose, Material 3, XML, ViewBinding, DataBinding |
+| Architecture | MVVM, Lifecycle Components |
+| Asynchronous Programming | Coroutines, LiveData |
+| Networking | Retrofit, Volley, Gson |
+| Local Storage | Room |
+| Platform APIs & SDKs | Google Maps, Ola Maps, CameraX, ML Kit, FRSLABS Atlas SDK, Uber H3 |
+| Background Execution | WorkManager, Foreground Services |
+| Firebase & Analytics | Firebase Crashlytics, Firebase Analytics, Microsoft Clarity |
+| Build & Release | Gradle, R8, Google Play Console |
 
-My responsibilities across these applications include:
+---
 
-- **End-to-End Production Delivery:** Taking Android features from implementation and integration through validation, production readiness, and release.
-- **Feature Ownership:** Driving the development of application features across consumer-facing services and operational workflows.
-- **Google Play Store Deployment:** Preparing production builds, managing release configurations, and deploying new application releases through Google Play Console.
-- **Production Maintenance:** Debugging issues, investigating crashes, and maintaining existing functionality while shipping enhancements.
-- **Android Architecture:** Working with MVVM, Kotlin Coroutines, lifecycle-aware components, and structured feature packages.
-- **Backend & SDK Integration:** Integrating REST APIs, mapping services, KYC SDKs, camera capabilities, and other third-party dependencies.
-- **Background & Real-Time Processing:** Implementing location tracking, background tasks, and real-time order synchronization where required.
-- **Performance & Reliability:** Applying release-build optimizations and using Firebase Crashlytics and analytics tools to support application quality.
+## Engineering Focus
 
-## Technical Expertise
-
-**Languages:** Kotlin, Java
-
-**Android Development:** MVVM, Jetpack Compose, Material 3, XML, ViewBinding, DataBinding, Kotlin Coroutines, LiveData
-
-**Networking & Persistence:** Retrofit, Volley, Gson, Room
-
-**Platform Integrations:** Google Maps, Ola Maps, WorkManager, Foreground Services, CameraX, Google ML Kit, FRSLABS Atlas SDK, Uber H3
-
-**Production & Observability:** Firebase Crashlytics, Firebase Analytics, Microsoft Clarity, R8, Google Play Console
-
-**Focus:** Android Engineering · Feature Ownership · Production Releases · Google Play Store Deployment
+**Android Development · Production Applications · Architecture · Backend Integration · Performance · Release Management**
